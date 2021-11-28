@@ -49,12 +49,12 @@ video{
 
 @media screen and (max-width:768px) {
     .container h1{
-        font-size: 4.5rem;
+        font-size: 6rem;
         letter-spacing: 3px;
     }
     .container h3{
         margin-top: 15px;
-        font-size: 2.5rem;
+        font-size: 3rem;
         letter-spacing: 4px;
     }
 }
