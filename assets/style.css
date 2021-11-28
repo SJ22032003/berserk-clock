@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+body{
+    overflow: hidden;
+}
+.container{
+    position:fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    user-select: none;
+}
+.container h1{
+    font-size: 6rem;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.container h3{
+    margin-top: 15px;
+    font-size: 3rem;
+    letter-spacing: 6px;
+}
+video{
+    position: fixed;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    height: 100vh;
+}
+#credits{
+    position: fixed;
+    z-index: 3;
+    right: 10px;
+    bottom: 10px;
+}
+#credits a{
+    text-decoration: none;
+    font-family: 'Comforter', sans-serif;
+    color: white;
+    font-size: 2.9rem;
+}
+/* Responsive */
+
+@media screen and (max-width:768px) {
+    .container h1{
+        font-size: 4.5rem;
+        letter-spacing: 3px;
+    }
+    .container h3{
+        margin-top: 15px;
+        font-size: 2.5rem;
+        letter-spacing: 4px;
+    }
+}
+@media screen and (max-width:480px){
+    .container h1{
+        font-size: 3.5rem;
+        letter-spacing: 4px;
+    }
+    .container h3{
+        margin-top: 15px;
+        font-size: 2rem;
+        letter-spacing: 4px;
+    }
+}
